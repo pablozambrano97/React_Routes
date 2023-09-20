@@ -8,14 +8,14 @@ import NotFound from './views/NotFound';
 
 
 function App() {
-
+const url="/React_Routes/"
   return (
     <>
       <BrowserRouter >
         <NavBar/>
         <Routes>
-          <Route path='/' element={<Home/>}/>
-          <Route path='/Contact' element={<Contact/>}/>
+          <Route path= {url} element={<Home/>}/>
+          <Route path={`${url}Contact`} element={<Contact/>}/>
           <Route path='*' element={<NotFound/>}/>
         </Routes>
       </BrowserRouter>
