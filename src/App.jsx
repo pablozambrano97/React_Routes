@@ -15,7 +15,7 @@ const url="/React_Routes/";
         <NavBar/>
         <Routes>
           <Route path= {url} element={<Home/>}/>
-          <Route path='/Contact' element={<Contact/>}/>
+          <Route path={`${url}/Contact`} element={<Contact/>}/>
           <Route path='*' element={<NotFound/>}/>
         </Routes>
       </BrowserRouter>
