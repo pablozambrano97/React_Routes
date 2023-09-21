@@ -10,7 +10,7 @@ export default function NavBar() {
             <Link to={url} className='text-decoration-none text-white'>
                 🏠 Home
             </Link>
-            <Link to={`${url}/Contact`} className='text-decoration-none text-white'>
+            <Link to={`${url}/contact`} className='text-decoration-none text-white'>
                 📗 Contacto
             </Link>
         </Container>
